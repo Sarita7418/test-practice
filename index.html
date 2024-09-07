@@ -14,6 +14,7 @@
     <title>Frontend Mentor | Product preview card component</title>
 
     <link rel="stylesheet" href="styles/mobile-375.css" />
+    <link rel="stylesheet" href="styles/desktop-1440.css" media="screen and (min-width: 1440px)">
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -31,7 +32,10 @@
   </head>
   <body>
     <section class="principal">
-      <img src="images/image-product-mobile.jpg" alt="" class="perfume" />
+      <picture>
+        <source media="(min-width: 1440px)" srcset="images/image-product-desktop.jpg">
+        <img src="images/image-product-mobile.jpg" alt="" class="perfume" />
+      </picture>
       <section class="content">
         <h2>P E R F U M E</h2>
         <h1>Gabrielle Essence Eau De Parfum</h1>

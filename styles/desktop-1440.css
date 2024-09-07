@@ -1,0 +1,29 @@
+.principal {
+  height: 450px;
+  display: flex;
+  width: 600px;
+  margin: auto;
+  margin-top: 160px;
+}
+
+.perfume {
+  height: 100%;
+  border-radius: 10px 0 0 10px;
+}
+
+.content {
+  max-width: 235px;
+  margin: 40px;
+}
+
+h2 {
+  margin-bottom: 20px;
+}
+
+h1 {
+  margin-bottom: 30px;
+}
+
+.content div {
+  margin-bottom: 25px;
+}
